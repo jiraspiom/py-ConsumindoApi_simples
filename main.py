@@ -8,3 +8,4 @@ def buscarDados(moeda, pais):
 if __name__ == '__main__':
     buscarDados('bomber-coin', 'brl')
     buscarDados('bomber-coin', 'usd')
+    
