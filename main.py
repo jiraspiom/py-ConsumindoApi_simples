@@ -5,6 +5,7 @@ def buscarDados(moeda, pais):
     dados = request.json()
     print(dados["bomber-coin"][f"{pais}"])
 
+
 if __name__ == '__main__':
     buscarDados('bomber-coin', 'brl')
     buscarDados('bomber-coin', 'usd')
