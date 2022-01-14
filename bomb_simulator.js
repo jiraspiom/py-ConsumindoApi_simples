@@ -125,7 +125,7 @@ function updateSimulator(){
     //updateDatabaseCookie();
 }	
 
-
+//TODO mudar para python
 updateSimulator()
 
 
