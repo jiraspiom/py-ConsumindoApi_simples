@@ -7,4 +7,4 @@ payload = {'address': '0x9C4d27c7c5796B8e64D626c6015463CfE4568dBF'}
 r = req.post(url, json=payload)
 dados = r.json()
 
-print(len(dados["heros"]))
+print(dados["heros"])

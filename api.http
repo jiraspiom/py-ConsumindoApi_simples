@@ -1,0 +1,14 @@
+POST https://api.nucito.com/v1/GetHeros HTTP/1.1
+content-type: application/json
+
+{
+    "address": "0x6de68de8bc5f2efa47b60d7129a3df3ec85b1587"
+}
+
+###
+POST https://api.nucito.com/v1/GetHeros HTTP/1.1
+content-type: application/json
+
+{
+    "address": "0x64a63D24234b2Fd661682A9d5915838F632a99a5"
+}
